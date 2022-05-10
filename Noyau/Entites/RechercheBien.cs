@@ -7,8 +7,8 @@ namespace Noyau
 {
     public partial class RechercheBien
     { 
-        public float PrixMin { get; set; }
-        public float PrixMax { get; set; }
+        public int? PrixMin { get; set; }
+        public int? PrixMax { get; set; }
         public string Type { get; set; }
         //public TypeBien TypeBien { get; set; }
     }

@@ -40,8 +40,8 @@ namespace LocationBiens.Controllers
                     a.DateDebut,
                     a.DateFin,
                     a.Statut,
-                    Bien = a.Bien.Code,
-                    Internaute = a.Internaute.Code,
+                    Bien = a.Bien.Code +" - "+ a.Bien.Titre,
+                    Internaute = a.Internaute.Code + " - " + a.Internaute.Nom + " " + a.Internaute.Prenom,
                 }); 
             return new JsonResult(reservations);
         }
@@ -96,8 +96,17 @@ namespace LocationBiens.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
-        public async Task<ActionResult<Reservation>> PostReservation(Reservation reservation)
+        public async Task<ActionResult<Reservation>> PostReservation(ReservationDto reservationDto)
         {
+            Reservation reservation = new Reservation()
+            {
+                DateDebut = reservationDto.DateDebut,
+                DateFin = reservationDto.DateFin,
+                BienId = (int)reservationDto.BienId,
+                InternauteId = (int)reservationDto.InternauteId,
+                Statut = "Confirmer",
+            };
+
             _context.Reservations.Add(reservation);
             await _context.SaveChangesAsync();
 

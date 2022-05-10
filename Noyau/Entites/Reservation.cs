@@ -18,6 +18,8 @@ namespace Noyau
         public DateTime DateFin { get; set; }
         public string Statut { get; set; }
 
+        public int BienId { get; set; }
+        public int InternauteId { get; set; }
 
         public Bien Bien { get; set; }
         public Internaute Internaute { get; set; }

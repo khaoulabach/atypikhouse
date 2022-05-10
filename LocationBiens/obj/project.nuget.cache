@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7XYOJwhP9tZJ3SXGpUPIw1e0f2ypsmc9k9XzzA4gpY89oqFOA3ge0oDokZmMdRu68hdUKdVwZBif4viwqRp92g==",
+  "dgSpecHash": "d+i8S4c5lEt6b7Ftlc4x0XBQcauozflPh7HDaCJyOwDk/E2+HDL64UyN4WovNVOrTtX6vyCJhQpCHAaabioLcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\p\\Desktop\\AtypikHouse\\LocationBiens\\LocationBiens\\LocationBiens.csproj",
+  "projectFilePath": "C:\\Users\\p\\Desktop\\readme\\AtypikHouse\\LocationBiens\\LocationBiens\\LocationBiens.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

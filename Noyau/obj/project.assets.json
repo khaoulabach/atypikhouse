@@ -4882,11 +4882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p\\Desktop\\AtypikHouse\\LocationBiens\\Noyau\\Noyau.csproj",
+      "projectUniqueName": "C:\\Users\\p\\Desktop\\readme\\AtypikHouse\\LocationBiens\\Noyau\\Noyau.csproj",
       "projectName": "Noyau",
-      "projectPath": "C:\\Users\\p\\Desktop\\AtypikHouse\\LocationBiens\\Noyau\\Noyau.csproj",
+      "projectPath": "C:\\Users\\p\\Desktop\\readme\\AtypikHouse\\LocationBiens\\Noyau\\Noyau.csproj",
       "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p\\Desktop\\AtypikHouse\\LocationBiens\\Noyau\\obj\\",
+      "outputPath": "C:\\Users\\p\\Desktop\\readme\\AtypikHouse\\LocationBiens\\Noyau\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

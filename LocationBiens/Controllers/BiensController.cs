@@ -73,23 +73,21 @@ namespace LocationBiens.Controllers
                     a.Image,
                     TypeBienId = a.TypeBien.Id,
                     TypeBien = a.TypeBien.Description,
-                })
-            //.Where(a => a.Prix >= rechercheBien.PrixMin)
-            //.Where(a => a.Prix <= rechercheBien.PrixMax)
-            //.Where(a => a.TypeBien == rechercheBien.Type)
-            ;
+                });
+
             if (rechercheBien.PrixMin != default)
             {
-                biens.Where(a => a.Prix >= rechercheBien.PrixMin);
+                biens = biens.Where(a => a.Prix >= rechercheBien.PrixMin);
             }
             if (rechercheBien.PrixMax != default)
             {
-                biens.Where(a => a.Prix <= rechercheBien.PrixMax);
+                biens = biens.Where(a => a.Prix <= rechercheBien.PrixMax);
             }
-            if (rechercheBien.Type != "")
+            if (rechercheBien.Type!= "")
             {
-                biens.Where(a => a.TypeBien.Equals(rechercheBien.Type));
+                biens = biens.Where(a => a.TypeBien.Contains(rechercheBien.Type));
             }
+
             return new JsonResult(biens);
         }
         // GET: api/Biens/5

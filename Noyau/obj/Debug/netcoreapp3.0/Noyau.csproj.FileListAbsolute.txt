@@ -21,3 +21,16 @@ C:\Users\p\Desktop\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau
 C:\Users\p\Desktop\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.dll
 C:\Users\p\Desktop\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.pdb
 C:\Users\p\Desktop\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.genruntimeconfig.cache
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\bin\Debug\netcoreapp3.0\Noyau.deps.json
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\bin\Debug\netcoreapp3.0\Noyau.runtimeconfig.json
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\bin\Debug\netcoreapp3.0\Noyau.runtimeconfig.dev.json
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\bin\Debug\netcoreapp3.0\Noyau.dll
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\bin\Debug\netcoreapp3.0\Noyau.pdb
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.csproj.AssemblyReference.cache
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.AssemblyInfoInputs.cache
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.AssemblyInfo.cs
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.csproj.CoreCompileInputs.cache
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.dll
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.pdb
+C:\Users\p\Desktop\readme\AtypikHouse\LocationBiens\Noyau\obj\Debug\netcoreapp3.0\Noyau.genruntimeconfig.cache

@@ -19,6 +19,20 @@ namespace LocationBiens.Controllers
         {
             _context = context;
         }
+        // POST: api/Internautes
+        [HttpPost("Login")]
+        public IActionResult PostLogin([FromBody] User user)
+        {
+            var internaute = _context.Internautes
+                .ToList()
+                .Where(u => u.Login.Equals(user.Login) && u.Password.Equals(user.Password))
+                .FirstOrDefault();
+            if (internaute == null)
+            {
+                return Ok(null);
+            }
+            return Ok(internaute);
+        }
 
         // GET: api/Internautes
         [HttpGet]
